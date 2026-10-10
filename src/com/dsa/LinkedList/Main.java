@@ -1,14 +1,14 @@
 package com.dsa.LinkedList;
 
-class AddAt {
-    public static class Node{
-        int data;
-        Node next;
+class Node{
+    int data;
+    Node next;
 
-        Node(int data){
-            this.data=data;
-        }
+    Node(int data){
+        this.data=data;
     }
+}
+class Main {
     public static void main(String[] args){
         Node N1=new Node(10);
         Node N2=new Node(20);
@@ -23,7 +23,7 @@ class AddAt {
 
         Node head=N1;//Node=DataType, head=Variable Name
         print(head);
-        print(AddAt(head,25,2));
+        AddAt(head,25,3);
         print(head);
     }
     public static void print(Node head){
